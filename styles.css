@@ -141,7 +141,6 @@ nav > ul > li > a:link, a:visited, a:active {
 .tech:hover{
  box-shadow: 0 0 5px 3px  #fff;
  background-color: #fff;
- border: 1px solid #fff;
 }
 
 /* Tech Talks */
