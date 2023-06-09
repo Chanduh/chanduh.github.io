@@ -1,214 +1,156 @@
-<meta http-equiv="refresh" content="1">
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Landing Page</title>
-    </head>
-    <style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chanda Gonet</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>CHANDA GONET</h1>
+    <h2>Software Engineer</h2>
+  </header>
 
-      html {
-        font-family: Helvetica, sans-serif;
-        font-size: 16px;
-      }
-      p {
-        padding: 5px;
-
-      }
-      h1 {
-        margin-bottom: -20px;
-         margin-top: 0px;
-         color: black  ;
-         -webkit-text-stroke: 0px #1DE1FF;
-         text-align: center;
-      }
-
-      .flexboxnav {
-        Display: flex;
-        justify-content: space-around;
-        gap: 20px;
-
-      }
-
-      #headerlogo {
-       display: inline-block;
-       margin:  auto;
-       font-family: arial black, sans-serif;
-       font-size: 2.5rem;
-       width: 40%;
-      }
-
-      .headlink {
-        margin: auto;
-        font-family: arial, sans-serif;
-        font-size: 1rem;
-        font-weight: bold;
-
-      }
-
-      .flexboxsplash {
-        background-color: orangered;
-        display: flex;
-        flex: 1 0 auto;
-        
-        justify-content: center;
-        gap: 30px;
-
-       
-      }
-
-      #splash1 {
-        width: 500px;
-        padding: 5px;
-        background-color: pink;
-        border:  0px solid black;
-        margin-top: 15px;
-        border-radius: 20px;
-        overflow: auto;
-
-
-
-      }
-       #splash2 {
-        margin-top: -70px;  
-     
-      }
-
-        .flexboxproducts {
-        justify-content: space-evenly;
-        display:  flex;
-        flex: 1;
-        height: 220px;
-        background-color: pink;
-      }
-
-      .product {
-        width: 170px;
-        margin:  auto;
-        background-color: pink;
-        border:  2px solid black;
- border-radius: 5%;
-        overflow: hidden;
-
-      }
-
-      #quote {
-        height:  120px;
-        background-color: coral;
-        font-family: Helvetica, sans-serif;
-        font-size: 26px;
-        font-weight: lighter;
-        margin:  auto;
-        padding:  30px;
-        padding-left: 200px;
-        padding-right: 200px;
-      }
-
-      #calltoaction {
-        height:  60px;
-        background-color: pink;
-        font-family: Helvetica, sans-serif;
-        font-size: 16px;
-        margin-left: 200px;
-        margin-right: 200px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding:  20px;
-        padding-top: 30px;
-        text-align: justify;
-        display:  flex;
-        flex: 1;
-        justify-content: space-around;
-      }
-
-      #button {
-        
-        width: 150px;
-        height: 50px;
-
-      }
-
-      footer {
-        background-color: orangered;
-        margin: auto;
-        font-family: Helvetica, sans-serif;
-        font-size: 12px;
-        padding:  10px;
-        text-align: center;
-      }
-
-    </style>
-
-
-
-
-   <div class="flexboxnav">
-    <div id="headerlogo">&nbsp;</div>
-    <div class="headlink">Link one</div>
-    <div class="headlink">Link Two</div>
-    <div class="headlink">Link Three</div>
-     <div class="headlink">Link Four</div>
-    <div class="headlink">Link Five</div>
-  </div>
-
-     <div class="flexboxsplash">
-
-       <div id="splash2">
-      <img src="/Odin/Untitled_Artwork 7.png"width="350px" height="350px">
-       </div>
-
-    <div id="splash1">
-      <h1>Hello there!</h1>
-      <p>I'm Chanda and I've been persuing tattooing as a career for over 17 years! I've spent even longer than that being passionate about web & graphic design. I spent many nights in my youth (yes, entire nights!) tweaking and revamping layouts for my personal satisfaction (and the one or two people who would ever see them).</p>
-
-<p>I've decided the time has come to switch gears and focus more on my webdesign interets. I am currently going the self-taught route (if you consider crushing tutorials "self"-teaching) and plan to be in the game professionally within the next year.</p>
-
-<p> <b>I'd love to talk, meet, connect, work & collaborate with you!</b></p>
-
-</div>
-   
-  </div>
-
-
-
-   <div class="flexboxproducts">
+  <div class="nav-fade"></div>
+  <nav>
+    <ul>
+      <li><a href="#about-me">About me</a></li>
+      <li><a href="#recent-work">Recent work</a></li>
+      <li><a href="#talks">Talks / Publications</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+    <ul>
+      <li><a href="https://github.com/Chanduh/" target="_blank">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/chanda-gonet/" target="_blank">LinkedIn</a></li>
+    </ul>
+  </nav>
+  <main>
+  <section id="about-me" class="section">
+    <h1 class="heading-shadow">Hello</h1>
+    <p>
+      I'm a software Engineer experienced in <strong>Javascript/Typescript</strong> full-stack development
+      <BR>specializing in <strong>React/Redux & Node.js</strong> architectures
+      <BR>with a soft spot for front-end & responsive design
+    </p>
+    <p>
+      <BR>I love open source, 
+      <BR><strong>using the right tool for the job</strong>
+      <BR>collaboration & 
+      <BR>creating positive user experiences
+    </p>
+    <p>
+      <BR>When I'm not building applications 
+      <BR>I'm building things from clay, wood, or flour
+      <BR>& occasionally touching grass
+    </p>
+    <p>
+    <!-- <BR>These are a few of my favorite things:<BR>
+      <span class="tech">REACT</span>
+      <span class="tech">REDUX</span>
+      <span class="tech">NODE.JS</span>
+      <span class="tech">HTML</span>
+      <span class="tech">CSS / SCSS</span>
+      <span class="tech">JAVASCRIPT</span>
+      <span class="tech">EXPRESS</span>
+      <span class="tech">SQL</span>
+      <span class="tech">NOSQL</span>
+      <span class="tech">DOCKER</span>
+      <span class="tech">TYPESCRIPT</span>
+    </p> -->
     
+  </section>
 
-    <div class="product"><img src="/Odin/IMG_0697.jpg" width="170px">
+  <section id="recent-work" class="section">
+    <h1>Recent Work</h1>
+
+    <div class="work-wrapper">
+      <img class="logo" src="lambdawg.png">
+      <div>
+        <h2>Lambdawg</h2>
+        <p><em>Open source AWS Lambda metrics GUI </em>| OSLabs</p>
+        <BR>
+        <p>
+          <span class="tech">REACT</span>
+          <span class="tech">REDIS</span>
+          <span class="tech">NODE.JS</span>
+          <span class="tech">D3</span>
+          <span class="tech">CHART.JS</span>
+          <span class="tech">SQL</span>
+          <span class="tech">REST API</span>
+          <span class="tech">VITE</span>
+          <span class="tech">AWS SDK</span>
+          <span class="tech">DOCKER</span>
+        </p><BR>
+        <p>An open source lambda metrics visualization tool to streamline error debugging and facilitating faster onboarding with app architecture overview. Renders D3 interactive graphics and charts based on data fetched from AWS Cloudwatch and XRay APIs</p>
+        <BR>
+        <p>
+          <a href="https://github.com/oslabs-beta/Lambdawg">GitHub</a>
+           | 
+           <a href="https://lambdawg.dev/">Lambdawg</a> 
+           |
+           <a href="https://www.opensourcelabs.io/">OSLabs</a> 
+
+          </p>
       </div>
+    </div>
 
-    <div class="product"><img src="/Odin/IMG_0699.jpg"width="170px"></div>
+    <div class="work-wrapper">
+      <img class="logo" src="alchemeal.png">
+      <div>
+        <h2>Alchemeal</h2>
+        <p>
+          <BR>
+          <span class="tech">REACT</span>
+          <span class="tech">SQL</span>
+          <span class="tech">NODE.JS</span>
+          <span class="tech">MONGODB</span>
+          <span class="tech">SQL</span>
+          <span class="tech">OAUTH</span>
+          <span class="tech">BCRYPT</span>
+        </p><BR>
+        <p>rovides nutritional suggestions and information based on physical symptoms, includes options to filter based on dietary restrictions / allergies.</p>        
+        <BR>
+        <p>
+          <a href="https://github.com/Endurtek/alchemeal">GitHub</a>
+          </p>
+      </div>
+    </div>
 
-    <div class="product"><img src="/Odin/IMG_0695.jpg"width="170px"></div>
+    <div class="work-wrapper">
+      <img class="logo" src="frndr.png">
+      <div>
+        <h2>frndr</h2>
+        <p>
+          <span class="tech">REACT</span>
+          <span class="tech">SQL</span>
+          <span class="tech">NODE.JS</span>
+          <span class="tech">MONGODB</span>
 
-    <div class="product"><img src="/Odin/IMG_0698.jpg"width="170px"></div>
-      
+        </p><BR>
+          <p>Platonic location-based meet-up app that matches active users with other local users based on proposed activities. Real-time geolocation with in-app chat functionality. </p>
+            <BR>
+        <p>
+          <a href="https://github.com/Amis-LLC/frndr-app">GitHub</a>          </p>
+      </div>
+    </div>
 
-    <div class="product"><img src="/Odin/IMG_0694.jpg"width="170px"></div>
+  </section>
 
-  </div>
+  
+    <section id="talks" class="section">
+      <h1>Tech Talk</h1>
 
-
-
-
-
-<div id="quote">
-<em>"This is a quote about websites. It's redundant and poorly worded. To be honest, I'm not sure who deicded it needed to go here." <b>- Dave from accounting</b></em>
-</div>
-
-<div id="calltoaction">
-  Why don't you give me your e-mail address? <br>
-  I'll sell it to somebody or something, cool?
-
-  <button id="button">Sign Up</button>
-  </div>
-
+      <!-- <center>
+        <iframe width="760" height="315" src="https://www.youtube.com/embed/Uz5frlqyXvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+      </center> -->
+    </section>
+    <section id="publications"></section>
+  </main>
   <footer>
-    Copyright 2032 The Lord and Savvyer
+    © Chanda Gonet 2023
   </footer>
-
-
-
-    </html>
-
+</body>
+</html>
