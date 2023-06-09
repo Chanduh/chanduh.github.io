@@ -25,3 +25,7 @@ function scrollToElement(element) {
     top: element.offsetTop
   });
 }
+
+window.onload = () => {
+  console.log('Welcome, friend :)')
+}
