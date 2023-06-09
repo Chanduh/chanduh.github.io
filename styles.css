@@ -148,16 +148,15 @@ nav > ul > li > a:link, a:visited, a:active {
 
 #tech-talk-wrapper {
   display: flex;
-  justify-content: space-around;
-  align-items:last center;
 }
 .youtube-icon {
   display: inline-block;
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   background-color: rgba(0, 0, 0, 0.693);
   border-radius: 50%;
   position: relative;
+  margin-right: 1.5rem;
 }
 .youtube-icon::before {
   content: "";
@@ -170,6 +169,7 @@ nav > ul > li > a:link, a:visited, a:active {
   border-top: 12px solid transparent;
   border-bottom: 12px solid transparent;
   border-left: 20px solid white;
+  margin-right: 1.5rem;
 }
 
 /* Footer */
