@@ -209,7 +209,7 @@ footer {
     justify-content: center;
     transition: top 0.3s ease;
     gap: 1rem;
-    z-index: 998;
+    z-index: 1001;
   }
   nav > ul {
     flex-direction: column;
@@ -232,12 +232,12 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    z-index: 1000;
+    z-index: 1002;
   }
   #burger-icon span {
     width: 100%;
     height: 10px;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.693);
     border-radius: 1rem;
     border: 3px solid #fab77f;
   }
@@ -256,7 +256,7 @@ footer {
     box-shadow: none;
   }
   #header > h2 {
-    color: rgba(0, 0, 0, 0.693);
+    color: #000;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1rem;
     z-index: 1000;
