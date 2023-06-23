@@ -249,11 +249,13 @@ footer {
   }
   #header > h1 {
     text-align: center;  
-    line-height: 2.5rem;  
+    line-height: 3.5rem;  
     z-index: 1000;
     border: none;
-    padding-right: 0px;
+    padding: .5rem;
     box-shadow: none;
+    color: white;
+    font-size: 5rem;
   }
   #header > h2 {
     color: #000;
