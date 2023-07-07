@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Cinzel&family=Cormorant+Garamond:wght@300&family=Nunito+Sans:ital,wght@0,300;0,700;1,300&display=swap');
 
+/* primary font color #000000b1
+link hover #000
+theme color #fab77f */
+
+
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -16,7 +21,7 @@ body {
 p {
   font-size: 1rem;
   margin-bottom: 1rem;
-  color: rgba(0, 0, 0, 0.693);
+  color: #000000b1;
   font-family: 'Nunito Sans', sans-serif;
 
 }
@@ -194,7 +199,7 @@ footer {
 
 /* Mobile  */
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
   /* Naviagation */
   .nav-fade {
