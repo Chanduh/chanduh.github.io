@@ -92,6 +92,7 @@ a:active {
   box-shadow: 2rem 2rem 2rem #f9c5b1 ;
   border-bottom: none;
   margin-bottom: .15rem;
+  line-height: 6rem;
 }
 #header > h2 {
   color: #fff;
@@ -233,7 +234,15 @@ footer {
 /* Mobile  */
 
 @media (max-width: 768px),  (hover: none){
-
+  html, button {
+    font-size: 4vw;
+  }
+  .section {
+    width: 100%;
+  }
+  .logo {
+    width: 60vw;
+  }
   /* Naviagation */
   .nav-fade {
     background-image: linear-gradient(to top, transparent, #f9c5b1);
@@ -279,15 +288,28 @@ footer {
     background-color: rgba(0, 0, 0, 0.693);
     border-radius: 1rem;
   }
-  
+
   /* Header */
   #header {
     background: linear-gradient(to bottom, #f9c5b1, transparent);
+    height: 100vh;
   }
   #header > h1 {
     box-shadow: none;
+    text-align: center;
+    padding: 0px;
   }
   #header > h2 {
     color: #000;
+  }
+  #about-me{
+    height: 100vh;
+  }
+  #main > section > h1 {
+    z-index: 1000;
+  }
+  .section {
+    padding-top: 1rem;
+
   }
 }
