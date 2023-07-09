@@ -63,16 +63,20 @@ a:active {
   border: .5px solid #121212;
   box-shadow: 5px 3px #121212;
   font-family: 'Overpass';
+  color: #000;
 }
 .primary-button:hover {
   box-shadow: 5px 3px #000;
   background-color: #f9c5b1be;
+  color: #000;
+
 }
 .primary-button:active {
   position: relative;
   top: 2px;
   left: 2px;
   box-shadow: 1px 1px #000;
+  color: #000;
 }
 
 /* Header */
