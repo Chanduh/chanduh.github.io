@@ -97,11 +97,15 @@ a:active {
   border-bottom: none;
   margin-bottom: .15rem;
   line-height: 6rem;
+  cursor: pointer;
+
 }
 #header > h2 {
   color: #fff;
   font-size: 1.8rem;
   letter-spacing: .25rem;
+  cursor: pointer;
+
 }
 
 /* Navigation */
@@ -130,12 +134,15 @@ nav > ul {
 nav > ul > li {
   margin: 1rem;
 }
+
 nav > ul > li > a:link, a:visited, a:active {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.693);
   font-family: 'Nunito Sans', sans-serif;
 }
-
+nav > ul > li > a:hover {
+  color: #f9c5b1;
+}
 /* Content */
 
 #main {
@@ -191,6 +198,7 @@ nav > ul > li > a:link, a:visited, a:active {
 .tech:hover{
  box-shadow: 0 0 5px 1px  #f9c5b1be;
  background-color: #fff;
+ cursor: pointer;
 }
 
 /* Tech Talks */
@@ -238,6 +246,9 @@ footer {
 /* Mobile  */
 
 @media (max-width: 768px),  (hover: none){
+  #main {
+    padding: 1rem;
+  }
   html, button {
     font-size: 4vw;
   }
