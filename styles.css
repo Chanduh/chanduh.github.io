@@ -163,7 +163,7 @@ nav > ul > li > a:hover {
 .work-wrapper {
   display: flex;
   flex-wrap: wrap;
-  flex: 1 1 550px;
+/*   flex: 1 1 550px; */
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
@@ -173,6 +173,7 @@ nav > ul > li > a:hover {
   flex-direction: column;
   border-left: 1.5px solid #f9c5b1;
   padding-left: 1rem;
+  max-width: 70%;
 }
 .logo {
   width: 200px;
