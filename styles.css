@@ -80,6 +80,11 @@ a:active {
   left: 2px;
   box-shadow: -1px -1px #000;
 }
+.primary-button > a:link, a:visited, a:active {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.693);
+  font-family: 'Nunito Sans', sans-serif;
+} 
 
 /* Header */
 
@@ -146,11 +151,12 @@ nav > ul > li > a:link, a:visited, a:active {
   align-items: center;
 } 
 .section {
-  padding-top: 5rem;
+
   margin: 2rem;
   display: flex;
   flex-direction: column;
   align-content: center;
+  justify-content: center;
   width: 70vw;
   max-width: 800px;
   min-height: 90vh;
