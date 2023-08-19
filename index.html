@@ -31,16 +31,18 @@
     </div>
     <nav class="closed-menu">
       <ul>
-        <li><a href="#about-me" aria-label="About Me">About me</a></li>
+        <li><a href="#about-me" aria-label="About">About me</a></li>
         <li><a href="#recent-work" aria-label="Recent Word">Recent work</a></li>
+        <li><a href="#open-source-work" aria-label="Open-source">Open-Source</a></li>
+
         <li>
-          <a href="#talks" aria-label="Talks and Publications"
+          <a href="#talks" aria-label="Talks"
             >Talks / Publications</a
           >
         </li>
         <li>
           <a href="mailto:ChandaGonet@gmail.com" aria-label="E-mail me"
-            >Contact Me</a
+            >Contact</a
           >
         </li>
       </ul>
@@ -75,42 +77,119 @@
       </section>
 
       <section id="recent-work" class="section">
-        <h1>RECENT WORK</h1>
+        <h1>RECENT WORK <span class="arrow">-></span></h1>
 
         <div class="work-wrapper">
-          <img class="logo" src="lambdawg.png" alt="Lambdawg Logo" />
+          <img class="desktop" src="/public/images/desktop_ghouls.gif" alt="L8 Night Ghouls Desktop screenshot" />
           <div>
-            <h2>LAMBDAWG (OSLabs)</h2>
-            <p class="tech-wrapper">
-              <span class="tech">REACT</span>
-              <span class="tech">REDIS</span>
-              <span class="tech">NODE.JS</span>
-              <span class="tech">D3</span>
-              <span class="tech">CHART.JS</span>
-              <span class="tech">SQL</span>
-              <span class="tech">REST API</span>
-              <span class="tech">VITE</span>
-              <span class="tech">AWS SDK</span>
-              <span class="tech">DOCKER</span>
-            </p>
-            <p>
-              An open source lambda metrics GUI to streamline error debugging
-              and fascilitate faster onboarding with app architecture overview.
-              Renders D3 interactive graphs and charts based on AWS Cloudwatch
-              and XRay API data.
-            </p>
-            <p>Developed under OSLabs</p>
-            <div>
-              <a href="https://github.com/oslabs-beta/Lambdawg" target="_blank"><button class="primary-button">GitHub</button></a>
-              <a href="https://www.opensourcelabs.io/" target="_blank"><button class="primary-button">OSLabs</button></a>
+            <h2>L8 Night Ghouls Podcast</h2>
+            <div class="work-mobile-flex">
+              <div class="left-work-wrap">
+                <p class="tech-wrapper">
+                  <span class="tech">REACT</span>
+                  <span class="tech">NEXT.JS</span>
+                  <span class="tech">NODE.JS</span>
+                  <span class="tech">REST API</span>
+                  <span class="tech">VERCEL</span>
+                  <span class="tech">GITHUB ACTIONS</span>
+                </p>
+                <p>
+                  A mobile-first responsive website that syncs with the latest podcast episodes.                </p>
+                <div class="button-desktop">
+                  <a href="https://l8nightghouls.vercel.app" target="_blank"><button class="primary-button">view lIVE</button></a>
+                </div>
+              </div>
+              <div class="right-work-wrap"><img class="mobile" src="/public/images/desktop_ghouls.gif" alt="L8 Night Ghouls mobile screenshot" /></div>
             </div>
           </div>
         </div>
 
         <div class="work-wrapper">
-          <img class="logo" src="alchemeal.png" alt="Alchameal Logo" />
+          <img class="desktop" src="/public/images/desktop-fliers.png" alt="Philly Fliers Desktop screenshot" />
           <div>
-            <h2>ALCHEMEAL (open source)</h2>
+            <h2>Philly Fliers</h2>
+            <div class="work-mobile-flex">
+              <div class="left-work-wrap">
+                <p class="tech-wrapper">
+                  <span class="tech">REACT</span>
+                  <span class="tech">NEXT.JS</span>
+                  <span class="tech">NODE.JS</span>
+                  <span class="tech">PUPPETEER</span>
+                  <span class="tech">REST API</span>
+                  <span class="tech">NoSQL</span>
+                  <span class="tech">VERCEL</span>
+                  <span class="tech">GITHUB ACTIONS</span>
+                </p>
+                <p>
+                  Web-app that displays daily new releases from Philadelphia recording artists and upcoming local live music events occurring within a two-day window. Uses cron job functions on Vercel to automate web scraping with Puppeteer, data filtering and storage.                <div class="button-desktop">
+                  <a href="https://phillyfliers.com" target="_blank"><button class="primary-button">view LIVE</button></a>
+                </div>
+              </div>
+              <div class="right-work-wrap"><img class="mobile" src="/public/images/desktop-fliers.png" alt="Philly fliers mobile screenshot" /></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-wrapper">
+          <img class="desktop" src="/public/images/desktop-wherry.png" alt="Wherry Academy Desktop screenshot" />
+          <div>
+            <h2>Wherry Academy</h2>
+            <div class="work-mobile-flex">
+              <div class="left-work-wrap">
+                <p class="tech-wrapper">
+                  <span class="tech">REACT</span>
+                  <span class="tech">NEXT.JS</span>
+                  <span class="tech">NODE.JS</span>
+                  <span class="tech">PUPPETEER</span>
+                  <span class="tech">REST API</span>
+                  <span class="tech">NoSQL</span>
+                  <span class="tech">VERCEL</span>
+                  <span class="tech">GITHUB ACTIONS</span>
+                </p>
+                <p>
+                  Web-app that displays daily new releases from Philadelphia recording artists and upcoming local live music events occurring within a two-day window. Uses cron job functions on Vercel to automate web scraping with Puppeteer, data filtering and storage.                <div class="button-desktop">
+                  <a href="https://phillyfliers.com" target="_blank"><button class="primary-button">view LIVE</button></a>
+                </div>
+              </div>
+              <div class="right-work-wrap"><img class="mobile" src="/public/images/desktop-wherry.png" alt="Wherry Academy mobile screenshot" /></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="open-source-work" class="section">
+        <h1>OPEN SOURCE<span class="arrow">-></span></h1>
+
+        <div class="work-wrapper osprod">
+          <img class="logo" src="/public/images/lambdawg.png" alt="Lambdawg Logo" />
+          <div>
+            <h2>LAMBDAWG (OSLabs)</h2>
+            <p class="tech-wrapper">
+              <span class="tech">REACT</span>
+              <span class="tech">D3</span>
+              <span class="tech">CHART.JS</span>
+              <span class="tech">MUI</span>
+              <span class="tech">REST API</span>
+              <span class="tech">NODE.JS</span>
+              <span class="tech">EXPRESS</span>
+              <span class="tech">REDIS</span>
+              <span class="tech">SQL</span>
+              <span class="tech">VITE</span>
+              <span class="tech">DOCKER</span>
+              <span class="tech">AWK SDK</span>
+            </p>
+            <p>
+              (Developed under OSLabs) - An open source lambda metrics GUI to streamline error debugging and fascilitate faster onboarding with app architecture overview. Renders D3 interactive graphs and charts based on AWS Cloudwatch and XRay API data.            </p>
+            <div>
+              <a href="https://github.com/oslabs-beta/Lambdawg" target="_blank"><button class="primary-button">view CODE</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-wrapper  osprod">
+          <img class="logo" src="/public/images/alchemeal.png" alt="Alchameal Logo" />
+          <div>
+            <h2>ALCHEMEAL</h2>
             <p class="tech-wrapper">
               <span class="tech">REACT</span>
               <span class="tech">SQL</span>
@@ -127,15 +206,15 @@
               / allergies.
             </p>
             <div>
-              <a href="https://github.com/Endurtek/alchemeal" target="_blank"><button class="primary-button">GitHub</button></a>
+              <a href="https://github.com/Endurtek/alchemeal" target="_blank"><button class="primary-button">view CODE</button></a>
             </div>
           </div>
         </div>
 
-        <div class="work-wrapper">
-          <img class="logo" src="frndr.png" alt="frndr Logo" />
+        <div class="work-wrapper  osprod">
+          <img class="logo" src="/public/images/frndr.png" alt="frndr Logo" />
           <div>
-            <h2>FRNDR (open source)</h2>
+            <h2>FRNDR</h2>
             <p class="tech-wrapper">
               <span class="tech">REACT</span>
               <span class="tech">SQL</span>
@@ -149,7 +228,7 @@
               geolocation with in-app chat functionality.
             </p>
             <div>
-              <a href="https://github.com/Amis-LLC/frndr-app" target='_blank'><button class="primary-button">GitHub</button></a>
+              <a href="https://github.com/Amis-LLC/frndr-app" target='_blank'><button class="primary-button os-button">view CODE</button></a>
             </div>
           </div>
         </div>
