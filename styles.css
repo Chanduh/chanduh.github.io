@@ -72,7 +72,7 @@ a:active {
   font-family: 'Overpass';
 }
 .primary-button:hover {
-  background-color: #fff;
+  background-color: #f9c5b1;
 }
 .primary-button:active {
   position: relative;
@@ -187,8 +187,8 @@ nav > ul > li > a:link, a:visited, a:active {
   flex-direction: column;
 }
 .work-wrapper > div > h2 {
-  background-color: #121212;
-  color: #fff;
+  background-color: #f9c5b1;
+  color: #121212;
   padding: .25rem 0 .25rem 1rem;
 }
 .left-work-wrap {
